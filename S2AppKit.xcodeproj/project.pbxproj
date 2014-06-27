@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5364213C16B744D300089619 /* S2AppKit.framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5364213D16B744D300089619 /* Build configuration list for PBXAggregateTarget "S2AppKit.framework" */;
+			buildPhases = (
+				5364214016B744DC00089619 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = S2AppKit.framework;
+			productName = S2AppKit.framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5328E9F9195E38B500C9A0EE /* S2Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328E9F5195E38B500C9A0EE /* S2Keychain.m */; };
+		5328E9FA195E38B500C9A0EE /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328E9F8195E38B500C9A0EE /* UIDevice+Extensions.m */; };
+		5328E9FF195E394C00C9A0EE /* S2ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328E9FC195E394C00C9A0EE /* S2ResourceManager.m */; };
+		5328EA00195E394C00C9A0EE /* S2TaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5328E9FE195E394C00C9A0EE /* S2TaskManager.m */; };
+		535FE07817BDF95900580FFB /* NSRegularExpression+S2Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 535FE07717BDF95900580FFB /* NSRegularExpression+S2Extension.m */; };
+		535FE07B17BDFAC600580FFB /* S2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 535FE07A17BDFAC600580FFB /* S2Model.m */; };
+		535FE07F17BE041600580FFB /* NSData+Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 535FE07C17BE041000580FFB /* NSData+Crypto.m */; };
+		535FE08017BE041600580FFB /* S2Functions.m in Sources */ = {isa = PBXBuildFile; fileRef = 535FE07E17BE041300580FFB /* S2Functions.m */; };
+		5364211016B7446300089619 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F7016B7446200089619 /* NSData+Base64.m */; };
+		5364211116B7446300089619 /* NSException+Logs.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F7116B7446200089619 /* NSException+Logs.m */; };
+		5364211216B7446300089619 /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F7316B7446200089619 /* NSObject+AssociatedObjects.m */; };
+		5364211416B7446300089619 /* S2Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F7716B7446200089619 /* S2Data.m */; };
+		5364211916B7446300089619 /* S2Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F8216B7446200089619 /* S2Logger.m */; };
+		5364211B16B7446300089619 /* S2Objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F8616B7446200089619 /* S2Objc.m */; };
+		5364211C16B7446300089619 /* S2Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F8816B7446200089619 /* S2Pair.m */; };
+		5364211D16B7446300089619 /* S2Platforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F8A16B7446200089619 /* S2Platforms.m */; };
+		5364212016B7446300089619 /* S2RuntimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F9016B7446200089619 /* S2RuntimeType.m */; };
+		5364212516B7446300089619 /* S2AdBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641F9C16B7446200089619 /* S2AdBanner.m */; };
+		5364212716B7446300089619 /* S2CollapsibleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FA016B7446200089619 /* S2CollapsibleTableView.m */; };
+		5364212816B7446300089619 /* S2DateTimeSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FA316B7446200089619 /* S2DateTimeSelectionViewController.m */; };
+		5364212916B7446300089619 /* S2GradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FA516B7446200089619 /* S2GradientButton.m */; };
+		5364212A16B7446300089619 /* S2ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FA716B7446200089619 /* S2ListView.m */; };
+		5364212B16B7446300089619 /* S2PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FA916B7446200089619 /* S2PickerViewController.m */; };
+		5364212C16B7446300089619 /* S2SplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FAB16B7446200089619 /* S2SplitViewController.m */; };
+		5364212D16B7446300089619 /* S2TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FAD16B7446200089619 /* S2TableView.m */; };
+		5364212E16B7446300089619 /* S2TableViewCellCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FAF16B7446200089619 /* S2TableViewCellCollection.m */; };
+		5364212F16B7446300089619 /* S2TableViewRowCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FB316B7446200089619 /* S2TableViewRowCollection.m */; };
+		5364213016B7446300089619 /* S2UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FBD16B7446200089619 /* S2UIKit.m */; };
+		5364213116B7446300089619 /* S2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FBF16B7446200089619 /* S2ViewController.m */; };
+		5364213216B7446300089619 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FC116B7446200089619 /* UIDevice+Extensions.m */; };
+		5364213316B7446300089619 /* UIKit+S2AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FC316B7446200089619 /* UIKit+S2AppKit.m */; };
+		5364213416B7446300089619 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 53641FC716B7446200089619 /* ioapi.c */; };
+		5364213516B7446300089619 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 53641FC916B7446200089619 /* mztools.c */; };
+		5364213616B7446300089619 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 53641FCB16B7446200089619 /* unzip.c */; };
+		5364213716B7446300089619 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 53641FCD16B7446200089619 /* zip.c */; };
+		5364213816B7446300089619 /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 53641FD016B7446200089619 /* ZipArchive.m */; };
+		5364217F16B7482500089619 /* S2UICase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364214E16B7482500089619 /* S2UICase.m */; };
+		5364218016B7482500089619 /* S2AdContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364215016B7482500089619 /* S2AdContainerViewController.m */; };
+		5364218116B7482500089619 /* S2UICaseContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364215216B7482500089619 /* S2UICaseContainer.m */; };
+		5364218416B7482500089619 /* S2EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364215816B7482500089619 /* S2EditorViewController.m */; };
+		5364218516B7482500089619 /* S2UIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364215A16B7482500089619 /* S2UIModel.m */; };
+		5364218616B7482500089619 /* S2ViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364215C16B7482500089619 /* S2ViewControllers.m */; };
+		5364218816B7482500089619 /* S2PopoverNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216016B7482500089619 /* S2PopoverNavigationViewController.m */; };
+		5364218916B7482500089619 /* S2PopoverToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216216B7482500089619 /* S2PopoverToolViewController.m */; };
+		5364218A16B7482500089619 /* S2CardContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216416B7482500089619 /* S2CardContainerViewController.m */; };
+		5364218B16B7482500089619 /* S2CardEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216616B7482500089619 /* S2CardEditorViewController.m */; };
+		5364218C16B7482500089619 /* S2CardItemListEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216816B7482500089619 /* S2CardItemListEditorViewController.m */; };
+		5364218D16B7482500089619 /* S2CardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216A16B7482500089619 /* S2CardListViewController.m */; };
+		5364218E16B7482500089619 /* S2CardPropertyEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216C16B7482500089619 /* S2CardPropertyEditorViewController.m */; };
+		5364218F16B7482500089619 /* S2CardStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364216E16B7482500089619 /* S2CardStack.m */; };
+		5364219016B7482500089619 /* S2DialogContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217016B7482500089619 /* S2DialogContext.m */; };
+		5364219116B7482500089619 /* S2DialogPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217216B7482500089619 /* S2DialogPageController.m */; };
+		5364219316B7482500089619 /* S2ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217616B7482500089619 /* S2ListViewController.m */; };
+		5364219416B7482500089619 /* S2TableDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217916B7482500089619 /* S2TableDialogController.m */; };
+		5364219516B7482500089619 /* S2TablePopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217B16B7482500089619 /* S2TablePopoverViewController.m */; };
+		5364219616B7482500089619 /* UIViewController+UICase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5364217D16B7482500089619 /* UIViewController+UICase.m */; };
+		53A2CE711802FEB200394913 /* S2Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A2CE701802FEB200394913 /* S2Button.m */; };
+		53ADF36317AFF29C0082EBE1 /* S2JSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF35D17AFF29C0082EBE1 /* S2JSONSerialization.m */; };
+		53ADF36417AFF29C0082EBE1 /* S2StringTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF35F17AFF29C0082EBE1 /* S2StringTable.m */; };
+		53ADF36517AFF29C0082EBE1 /* S2TableTextExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF36117AFF29C0082EBE1 /* S2TableTextExporter.m */; };
+		53D85B1B17A7CD5A006C97CA /* S2NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D85B1A17A7CD5A006C97CA /* S2NotificationCenter.m */; };
+		53E13BE3188FCF8B009AEB1B /* S2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BE2188FCF8B009AEB1B /* S2AppDelegate.m */; };
+		53E13BEB18903218009AEB1B /* S2Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BE818903218009AEB1B /* S2Debug.m */; };
+		53E13BF7189032C4009AEB1B /* S2HttpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BF2189032C4009AEB1B /* S2HttpTask.m */; };
+		53E13BF9189032C4009AEB1B /* S2Sockets.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BF6189032C4009AEB1B /* S2Sockets.m */; };
+		53E13C301890358A009AEB1B /* NSStream+S2AppKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13C2F1890358A009AEB1B /* NSStream+S2AppKit.m */; };
+		53EF3C4A16D3682000DA22E9 /* S2ResourceVersionCheckTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 53EF3C4916D3682000DA22E9 /* S2ResourceVersionCheckTask.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53641CF916B7443400089619 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5328E9F4195E38B500C9A0EE /* S2Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Keychain.h; sourceTree = "<group>"; };
+		5328E9F5195E38B500C9A0EE /* S2Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Keychain.m; sourceTree = "<group>"; };
+		5328E9F6195E38B500C9A0EE /* S2SoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2SoundPlayer.h; sourceTree = "<group>"; };
+		5328E9F7195E38B500C9A0EE /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		5328E9F8195E38B500C9A0EE /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		5328E9FB195E394C00C9A0EE /* S2ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2ResourceManager.h; sourceTree = "<group>"; };
+		5328E9FC195E394C00C9A0EE /* S2ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2ResourceManager.m; sourceTree = "<group>"; };
+		5328E9FD195E394C00C9A0EE /* S2TaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TaskManager.h; sourceTree = "<group>"; };
+		5328E9FE195E394C00C9A0EE /* S2TaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TaskManager.m; sourceTree = "<group>"; };
+		5333231617CA49F300D01010 /* InternalMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternalMethods.h; sourceTree = "<group>"; };
+		535FE07617BDF95900580FFB /* NSRegularExpression+S2Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRegularExpression+S2Extension.h"; sourceTree = "<group>"; };
+		535FE07717BDF95900580FFB /* NSRegularExpression+S2Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRegularExpression+S2Extension.m"; sourceTree = "<group>"; };
+		535FE07917BDFAC600580FFB /* S2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Model.h; sourceTree = "<group>"; };
+		535FE07A17BDFAC600580FFB /* S2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Model.m; sourceTree = "<group>"; };
+		535FE07C17BE041000580FFB /* NSData+Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Crypto.m"; sourceTree = "<group>"; };
+		535FE07D17BE041200580FFB /* S2Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Functions.h; sourceTree = "<group>"; };
+		535FE07E17BE041300580FFB /* S2Functions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Functions.m; sourceTree = "<group>"; };
+		53641CFB16B7443400089619 /* libS2AppKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libS2AppKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		53641F4716B7446200089619 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53641F5716B7446200089619 /* S2AppKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "S2AppKit-Prefix.pch"; sourceTree = "<group>"; };
+		53641F7016B7446200089619 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		53641F7116B7446200089619 /* NSException+Logs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Logs.m"; sourceTree = "<group>"; };
+		53641F7216B7446200089619 /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		53641F7316B7446200089619 /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
+		53641F7616B7446200089619 /* S2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Data.h; sourceTree = "<group>"; };
+		53641F7716B7446200089619 /* S2Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Data.m; sourceTree = "<group>"; };
+		53641F7A16B7446200089619 /* S2Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Foundation.h; sourceTree = "<group>"; };
+		53641F8116B7446200089619 /* S2Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Logger.h; sourceTree = "<group>"; };
+		53641F8216B7446200089619 /* S2Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Logger.m; sourceTree = "<group>"; };
+		53641F8516B7446200089619 /* S2Objc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Objc.h; sourceTree = "<group>"; };
+		53641F8616B7446200089619 /* S2Objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Objc.m; sourceTree = "<group>"; };
+		53641F8716B7446200089619 /* S2Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Pair.h; sourceTree = "<group>"; };
+		53641F8816B7446200089619 /* S2Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Pair.m; sourceTree = "<group>"; };
+		53641F8916B7446200089619 /* S2Platforms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Platforms.h; sourceTree = "<group>"; };
+		53641F8A16B7446200089619 /* S2Platforms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Platforms.m; sourceTree = "<group>"; };
+		53641F8F16B7446200089619 /* S2RuntimeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2RuntimeType.h; sourceTree = "<group>"; };
+		53641F9016B7446200089619 /* S2RuntimeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2RuntimeType.m; sourceTree = "<group>"; };
+		53641F9B16B7446200089619 /* S2AdBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2AdBanner.h; sourceTree = "<group>"; };
+		53641F9C16B7446200089619 /* S2AdBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2AdBanner.m; sourceTree = "<group>"; };
+		53641F9F16B7446200089619 /* S2CollapsibleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CollapsibleTableView.h; sourceTree = "<group>"; };
+		53641FA016B7446200089619 /* S2CollapsibleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CollapsibleTableView.m; sourceTree = "<group>"; };
+		53641FA116B7446200089619 /* S2Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Colors.h; sourceTree = "<group>"; };
+		53641FA216B7446200089619 /* S2DateTimeSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2DateTimeSelectionViewController.h; sourceTree = "<group>"; };
+		53641FA316B7446200089619 /* S2DateTimeSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2DateTimeSelectionViewController.m; sourceTree = "<group>"; };
+		53641FA416B7446200089619 /* S2GradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2GradientButton.h; sourceTree = "<group>"; };
+		53641FA516B7446200089619 /* S2GradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2GradientButton.m; sourceTree = "<group>"; };
+		53641FA616B7446200089619 /* S2ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2ListView.h; sourceTree = "<group>"; };
+		53641FA716B7446200089619 /* S2ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2ListView.m; sourceTree = "<group>"; };
+		53641FA816B7446200089619 /* S2PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2PickerViewController.h; sourceTree = "<group>"; };
+		53641FA916B7446200089619 /* S2PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2PickerViewController.m; sourceTree = "<group>"; };
+		53641FAA16B7446200089619 /* S2SplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2SplitViewController.h; sourceTree = "<group>"; };
+		53641FAB16B7446200089619 /* S2SplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2SplitViewController.m; sourceTree = "<group>"; };
+		53641FAC16B7446200089619 /* S2TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TableView.h; sourceTree = "<group>"; };
+		53641FAD16B7446200089619 /* S2TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableView.m; sourceTree = "<group>"; };
+		53641FAE16B7446200089619 /* S2TableViewCellCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TableViewCellCollection.h; sourceTree = "<group>"; };
+		53641FAF16B7446200089619 /* S2TableViewCellCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableViewCellCollection.m; sourceTree = "<group>"; };
+		53641FB016B7446200089619 /* S2TableViewImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewImageCell.xib; sourceTree = "<group>"; };
+		53641FB116B7446200089619 /* S2TableViewRowAddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewRowAddCell.xib; sourceTree = "<group>"; };
+		53641FB216B7446200089619 /* S2TableViewRowCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TableViewRowCollection.h; sourceTree = "<group>"; };
+		53641FB316B7446200089619 /* S2TableViewRowCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableViewRowCollection.m; sourceTree = "<group>"; };
+		53641FB416B7446200089619 /* S2TableViewSegmentedEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewSegmentedEditCell.xib; sourceTree = "<group>"; };
+		53641FB516B7446200089619 /* S2TableViewStandardBasicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewStandardBasicCell.xib; sourceTree = "<group>"; };
+		53641FB616B7446200089619 /* S2TableViewStandardLeftDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewStandardLeftDetailCell.xib; sourceTree = "<group>"; };
+		53641FB716B7446200089619 /* S2TableViewStandardRightDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewStandardRightDetailCell.xib; sourceTree = "<group>"; };
+		53641FB816B7446200089619 /* S2TableViewStandardSubtitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewStandardSubtitleCell.xib; sourceTree = "<group>"; };
+		53641FB916B7446200089619 /* S2TableViewSwitchEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewSwitchEditCell.xib; sourceTree = "<group>"; };
+		53641FBA16B7446200089619 /* S2TableViewTextEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewTextEditCell.xib; sourceTree = "<group>"; };
+		53641FBB16B7446200089619 /* S2TableViewTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableViewTitleCell.xib; sourceTree = "<group>"; };
+		53641FBC16B7446200089619 /* S2UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2UIKit.h; sourceTree = "<group>"; };
+		53641FBD16B7446200089619 /* S2UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2UIKit.m; sourceTree = "<group>"; };
+		53641FBE16B7446200089619 /* S2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2ViewController.h; sourceTree = "<group>"; };
+		53641FBF16B7446200089619 /* S2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2ViewController.m; sourceTree = "<group>"; };
+		53641FC016B7446200089619 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		53641FC116B7446200089619 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		53641FC216B7446200089619 /* UIKit+S2AppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+S2AppKit.h"; sourceTree = "<group>"; };
+		53641FC316B7446200089619 /* UIKit+S2AppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIKit+S2AppKit.m"; sourceTree = "<group>"; };
+		53641FC616B7446200089619 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		53641FC716B7446200089619 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		53641FC816B7446200089619 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		53641FC916B7446200089619 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		53641FCA16B7446200089619 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		53641FCB16B7446200089619 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		53641FCC16B7446200089619 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		53641FCD16B7446200089619 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		53641FCE16B7446200089619 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		53641FCF16B7446200089619 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		53641FD016B7446200089619 /* ZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipArchive.m; sourceTree = "<group>"; };
+		5364214D16B7482500089619 /* S2UICase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2UICase.h; sourceTree = "<group>"; };
+		5364214E16B7482500089619 /* S2UICase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2UICase.m; sourceTree = "<group>"; };
+		5364214F16B7482500089619 /* S2AdContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = S2AdContainerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5364215016B7482500089619 /* S2AdContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = S2AdContainerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5364215116B7482500089619 /* S2UICaseContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = S2UICaseContainer.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5364215216B7482500089619 /* S2UICaseContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = S2UICaseContainer.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5364215716B7482500089619 /* S2EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = S2EditorViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5364215816B7482500089619 /* S2EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = S2EditorViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5364215916B7482500089619 /* S2UIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2UIModel.h; sourceTree = "<group>"; };
+		5364215A16B7482500089619 /* S2UIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2UIModel.m; sourceTree = "<group>"; };
+		5364215B16B7482500089619 /* S2ViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = S2ViewControllers.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		5364215C16B7482500089619 /* S2ViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = S2ViewControllers.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		5364215F16B7482500089619 /* S2PopoverNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2PopoverNavigationViewController.h; sourceTree = "<group>"; };
+		5364216016B7482500089619 /* S2PopoverNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2PopoverNavigationViewController.m; sourceTree = "<group>"; };
+		5364216116B7482500089619 /* S2PopoverToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2PopoverToolViewController.h; sourceTree = "<group>"; };
+		5364216216B7482500089619 /* S2PopoverToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2PopoverToolViewController.m; sourceTree = "<group>"; };
+		5364216316B7482500089619 /* S2CardContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardContainerViewController.h; sourceTree = "<group>"; };
+		5364216416B7482500089619 /* S2CardContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardContainerViewController.m; sourceTree = "<group>"; };
+		5364216516B7482500089619 /* S2CardEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardEditorViewController.h; sourceTree = "<group>"; };
+		5364216616B7482500089619 /* S2CardEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardEditorViewController.m; sourceTree = "<group>"; };
+		5364216716B7482500089619 /* S2CardItemListEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardItemListEditorViewController.h; sourceTree = "<group>"; };
+		5364216816B7482500089619 /* S2CardItemListEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardItemListEditorViewController.m; sourceTree = "<group>"; };
+		5364216916B7482500089619 /* S2CardListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardListViewController.h; sourceTree = "<group>"; };
+		5364216A16B7482500089619 /* S2CardListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardListViewController.m; sourceTree = "<group>"; };
+		5364216B16B7482500089619 /* S2CardPropertyEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardPropertyEditorViewController.h; sourceTree = "<group>"; };
+		5364216C16B7482500089619 /* S2CardPropertyEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardPropertyEditorViewController.m; sourceTree = "<group>"; };
+		5364216D16B7482500089619 /* S2CardStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2CardStack.h; sourceTree = "<group>"; };
+		5364216E16B7482500089619 /* S2CardStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2CardStack.m; sourceTree = "<group>"; };
+		5364216F16B7482500089619 /* S2DialogContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2DialogContext.h; sourceTree = "<group>"; };
+		5364217016B7482500089619 /* S2DialogContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2DialogContext.m; sourceTree = "<group>"; };
+		5364217116B7482500089619 /* S2DialogPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2DialogPageController.h; sourceTree = "<group>"; };
+		5364217216B7482500089619 /* S2DialogPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2DialogPageController.m; sourceTree = "<group>"; };
+		5364217516B7482500089619 /* S2ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2ListViewController.h; sourceTree = "<group>"; };
+		5364217616B7482500089619 /* S2ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2ListViewController.m; sourceTree = "<group>"; };
+		5364217716B7482500089619 /* S2TableDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = S2TableDialog.xib; sourceTree = "<group>"; };
+		5364217816B7482500089619 /* S2TableDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TableDialogController.h; sourceTree = "<group>"; };
+		5364217916B7482500089619 /* S2TableDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableDialogController.m; sourceTree = "<group>"; };
+		5364217A16B7482500089619 /* S2TablePopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TablePopoverViewController.h; sourceTree = "<group>"; };
+		5364217B16B7482500089619 /* S2TablePopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TablePopoverViewController.m; sourceTree = "<group>"; };
+		5364217C16B7482500089619 /* UIViewController+UICase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UICase.h"; sourceTree = "<group>"; };
+		5364217D16B7482500089619 /* UIViewController+UICase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UICase.m"; sourceTree = "<group>"; };
+		5381F5A816C75C1A002AA5FE /* S2AppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2AppKit.h; sourceTree = "<group>"; };
+		53A2CE6F1802FEB200394913 /* S2Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Button.h; sourceTree = "<group>"; };
+		53A2CE701802FEB200394913 /* S2Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Button.m; sourceTree = "<group>"; };
+		53ADF35C17AFF29C0082EBE1 /* S2JSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2JSONSerialization.h; sourceTree = "<group>"; };
+		53ADF35D17AFF29C0082EBE1 /* S2JSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2JSONSerialization.m; sourceTree = "<group>"; };
+		53ADF35E17AFF29C0082EBE1 /* S2StringTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2StringTable.h; sourceTree = "<group>"; };
+		53ADF35F17AFF29C0082EBE1 /* S2StringTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2StringTable.m; sourceTree = "<group>"; };
+		53ADF36017AFF29C0082EBE1 /* S2TableTextExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2TableTextExporter.h; sourceTree = "<group>"; };
+		53ADF36117AFF29C0082EBE1 /* S2TableTextExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableTextExporter.m; sourceTree = "<group>"; };
+		53ADF36617AFF53F0082EBE1 /* S2TextKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2TextKit.h; sourceTree = "<group>"; };
+		53BC3EFF17A57375006B9D2E /* S2UIKitDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2UIKitDefines.h; sourceTree = "<group>"; };
+		53D85B1917A7CD5A006C97CA /* S2NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2NotificationCenter.h; sourceTree = "<group>"; };
+		53D85B1A17A7CD5A006C97CA /* S2NotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2NotificationCenter.m; sourceTree = "<group>"; };
+		53E13BE1188FCF8B009AEB1B /* S2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2AppDelegate.h; sourceTree = "<group>"; };
+		53E13BE2188FCF8B009AEB1B /* S2AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2AppDelegate.m; sourceTree = "<group>"; };
+		53E13BE718903218009AEB1B /* S2Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Debug.h; sourceTree = "<group>"; };
+		53E13BE818903218009AEB1B /* S2Debug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Debug.m; sourceTree = "<group>"; };
+		53E13BF1189032C4009AEB1B /* S2HttpTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2HttpTask.h; sourceTree = "<group>"; };
+		53E13BF2189032C4009AEB1B /* S2HttpTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2HttpTask.m; sourceTree = "<group>"; };
+		53E13BF5189032C4009AEB1B /* S2Sockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Sockets.h; sourceTree = "<group>"; };
+		53E13BF6189032C4009AEB1B /* S2Sockets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Sockets.m; sourceTree = "<group>"; };
+		53E13C2E1890358A009AEB1B /* NSStream+S2AppKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+S2AppKit.h"; sourceTree = "<group>"; };
+		53E13C2F1890358A009AEB1B /* NSStream+S2AppKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+S2AppKit.m"; sourceTree = "<group>"; };
+		53EF3C4816D3682000DA22E9 /* S2ResourceVersionCheckTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2ResourceVersionCheckTask.h; sourceTree = "<group>"; };
+		53EF3C4916D3682000DA22E9 /* S2ResourceVersionCheckTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2ResourceVersionCheckTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53641CF816B7443400089619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53641CF016B7443400089619 = {
+			isa = PBXGroup;
+			children = (
+				53641F4716B7446200089619 /* Info.plist */,
+				53641F5716B7446200089619 /* S2AppKit-Prefix.pch */,
+				53641F4B16B7446200089619 /* Application */,
+				53641F6F16B7446200089619 /* Foundation */,
+				53ADF35917AFF29C0082EBE1 /* Text */,
+				53641F9A16B7446200089619 /* UIKit */,
+				5364214C16B7482500089619 /* UICase */,
+				53E13BED1890324C009AEB1B /* Networking */,
+				53641F5816B7446200089619 /* Services */,
+				53641FC416B7446200089619 /* ZipArchive */,
+				53641CFC16B7443400089619 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53641CFC16B7443400089619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53641CFB16B7443400089619 /* libS2AppKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53641F4B16B7446200089619 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5381F5A816C75C1A002AA5FE /* S2AppKit.h */,
+				53E13BE1188FCF8B009AEB1B /* S2AppDelegate.h */,
+				53E13BE2188FCF8B009AEB1B /* S2AppDelegate.m */,
+				53E13BE718903218009AEB1B /* S2Debug.h */,
+				53E13BE818903218009AEB1B /* S2Debug.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		53641F5816B7446200089619 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5328E9FB195E394C00C9A0EE /* S2ResourceManager.h */,
+				5328E9FC195E394C00C9A0EE /* S2ResourceManager.m */,
+				5328E9FD195E394C00C9A0EE /* S2TaskManager.h */,
+				5328E9FE195E394C00C9A0EE /* S2TaskManager.m */,
+				5328E9F4195E38B500C9A0EE /* S2Keychain.h */,
+				5328E9F5195E38B500C9A0EE /* S2Keychain.m */,
+				5328E9F6195E38B500C9A0EE /* S2SoundPlayer.h */,
+				5328E9F7195E38B500C9A0EE /* UIDevice+Extensions.h */,
+				5328E9F8195E38B500C9A0EE /* UIDevice+Extensions.m */,
+				53EF3C4816D3682000DA22E9 /* S2ResourceVersionCheckTask.h */,
+				53EF3C4916D3682000DA22E9 /* S2ResourceVersionCheckTask.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		53641F6F16B7446200089619 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				535FE07C17BE041000580FFB /* NSData+Crypto.m */,
+				53641F7016B7446200089619 /* NSData+Base64.m */,
+				53641F7116B7446200089619 /* NSException+Logs.m */,
+				53641F7216B7446200089619 /* NSObject+AssociatedObjects.h */,
+				53641F7316B7446200089619 /* NSObject+AssociatedObjects.m */,
+				53641F8116B7446200089619 /* S2Logger.h */,
+				53641F8216B7446200089619 /* S2Logger.m */,
+				53641F8516B7446200089619 /* S2Objc.h */,
+				53641F8616B7446200089619 /* S2Objc.m */,
+				53641F8716B7446200089619 /* S2Pair.h */,
+				53641F8816B7446200089619 /* S2Pair.m */,
+				53641F7616B7446200089619 /* S2Data.h */,
+				53641F7716B7446200089619 /* S2Data.m */,
+				53641F8F16B7446200089619 /* S2RuntimeType.h */,
+				53641F9016B7446200089619 /* S2RuntimeType.m */,
+				53D85B1917A7CD5A006C97CA /* S2NotificationCenter.h */,
+				53D85B1A17A7CD5A006C97CA /* S2NotificationCenter.m */,
+				535FE07917BDFAC600580FFB /* S2Model.h */,
+				535FE07A17BDFAC600580FFB /* S2Model.m */,
+				535FE07D17BE041200580FFB /* S2Functions.h */,
+				535FE07E17BE041300580FFB /* S2Functions.m */,
+				53641F8916B7446200089619 /* S2Platforms.h */,
+				53641F8A16B7446200089619 /* S2Platforms.m */,
+				53641F7A16B7446200089619 /* S2Foundation.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		53641F9A16B7446200089619 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				53BC3EFF17A57375006B9D2E /* S2UIKitDefines.h */,
+				53641F9B16B7446200089619 /* S2AdBanner.h */,
+				53641F9C16B7446200089619 /* S2AdBanner.m */,
+				53A2CE6F1802FEB200394913 /* S2Button.h */,
+				53A2CE701802FEB200394913 /* S2Button.m */,
+				53641F9F16B7446200089619 /* S2CollapsibleTableView.h */,
+				53641FA016B7446200089619 /* S2CollapsibleTableView.m */,
+				53641FA116B7446200089619 /* S2Colors.h */,
+				53641FA216B7446200089619 /* S2DateTimeSelectionViewController.h */,
+				53641FA316B7446200089619 /* S2DateTimeSelectionViewController.m */,
+				53641FA416B7446200089619 /* S2GradientButton.h */,
+				53641FA516B7446200089619 /* S2GradientButton.m */,
+				53641FA616B7446200089619 /* S2ListView.h */,
+				53641FA716B7446200089619 /* S2ListView.m */,
+				53641FA816B7446200089619 /* S2PickerViewController.h */,
+				53641FA916B7446200089619 /* S2PickerViewController.m */,
+				53641FAC16B7446200089619 /* S2TableView.h */,
+				53641FAD16B7446200089619 /* S2TableView.m */,
+				53641FB216B7446200089619 /* S2TableViewRowCollection.h */,
+				53641FB316B7446200089619 /* S2TableViewRowCollection.m */,
+				53641FAE16B7446200089619 /* S2TableViewCellCollection.h */,
+				53641FAF16B7446200089619 /* S2TableViewCellCollection.m */,
+				53641FB016B7446200089619 /* S2TableViewImageCell.xib */,
+				53641FB116B7446200089619 /* S2TableViewRowAddCell.xib */,
+				53641FB416B7446200089619 /* S2TableViewSegmentedEditCell.xib */,
+				53641FB516B7446200089619 /* S2TableViewStandardBasicCell.xib */,
+				53641FB616B7446200089619 /* S2TableViewStandardLeftDetailCell.xib */,
+				53641FB716B7446200089619 /* S2TableViewStandardRightDetailCell.xib */,
+				53641FB816B7446200089619 /* S2TableViewStandardSubtitleCell.xib */,
+				53641FB916B7446200089619 /* S2TableViewSwitchEditCell.xib */,
+				53641FBA16B7446200089619 /* S2TableViewTextEditCell.xib */,
+				53641FBB16B7446200089619 /* S2TableViewTitleCell.xib */,
+				53641FBC16B7446200089619 /* S2UIKit.h */,
+				53641FBD16B7446200089619 /* S2UIKit.m */,
+				53641FBE16B7446200089619 /* S2ViewController.h */,
+				53641FBF16B7446200089619 /* S2ViewController.m */,
+				53641FAA16B7446200089619 /* S2SplitViewController.h */,
+				53641FAB16B7446200089619 /* S2SplitViewController.m */,
+				53641FC016B7446200089619 /* UIDevice+Extensions.h */,
+				53641FC116B7446200089619 /* UIDevice+Extensions.m */,
+				53641FC216B7446200089619 /* UIKit+S2AppKit.h */,
+				53641FC316B7446200089619 /* UIKit+S2AppKit.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		53641FC416B7446200089619 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				53641FC516B7446200089619 /* minizip */,
+				53641FCF16B7446200089619 /* ZipArchive.h */,
+				53641FD016B7446200089619 /* ZipArchive.m */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		53641FC516B7446200089619 /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				53641FC616B7446200089619 /* crypt.h */,
+				53641FC716B7446200089619 /* ioapi.c */,
+				53641FC816B7446200089619 /* ioapi.h */,
+				53641FC916B7446200089619 /* mztools.c */,
+				53641FCA16B7446200089619 /* mztools.h */,
+				53641FCB16B7446200089619 /* unzip.c */,
+				53641FCC16B7446200089619 /* unzip.h */,
+				53641FCD16B7446200089619 /* zip.c */,
+				53641FCE16B7446200089619 /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+		5364214C16B7482500089619 /* UICase */ = {
+			isa = PBXGroup;
+			children = (
+				5333231617CA49F300D01010 /* InternalMethods.h */,
+				5364215916B7482500089619 /* S2UIModel.h */,
+				5364215A16B7482500089619 /* S2UIModel.m */,
+				5364214D16B7482500089619 /* S2UICase.h */,
+				5364214E16B7482500089619 /* S2UICase.m */,
+				5364215116B7482500089619 /* S2UICaseContainer.h */,
+				5364215216B7482500089619 /* S2UICaseContainer.m */,
+				5364214F16B7482500089619 /* S2AdContainerViewController.h */,
+				5364215016B7482500089619 /* S2AdContainerViewController.m */,
+				5364217C16B7482500089619 /* UIViewController+UICase.h */,
+				5364217D16B7482500089619 /* UIViewController+UICase.m */,
+				5364215B16B7482500089619 /* S2ViewControllers.h */,
+				5364215C16B7482500089619 /* S2ViewControllers.m */,
+				5364215716B7482500089619 /* S2EditorViewController.h */,
+				5364215816B7482500089619 /* S2EditorViewController.m */,
+				5364215F16B7482500089619 /* S2PopoverNavigationViewController.h */,
+				5364216016B7482500089619 /* S2PopoverNavigationViewController.m */,
+				5364216116B7482500089619 /* S2PopoverToolViewController.h */,
+				5364216216B7482500089619 /* S2PopoverToolViewController.m */,
+				5364216316B7482500089619 /* S2CardContainerViewController.h */,
+				5364216416B7482500089619 /* S2CardContainerViewController.m */,
+				5364216516B7482500089619 /* S2CardEditorViewController.h */,
+				5364216616B7482500089619 /* S2CardEditorViewController.m */,
+				5364216716B7482500089619 /* S2CardItemListEditorViewController.h */,
+				5364216816B7482500089619 /* S2CardItemListEditorViewController.m */,
+				5364216916B7482500089619 /* S2CardListViewController.h */,
+				5364216A16B7482500089619 /* S2CardListViewController.m */,
+				5364216B16B7482500089619 /* S2CardPropertyEditorViewController.h */,
+				5364216C16B7482500089619 /* S2CardPropertyEditorViewController.m */,
+				5364216D16B7482500089619 /* S2CardStack.h */,
+				5364216E16B7482500089619 /* S2CardStack.m */,
+				5364216F16B7482500089619 /* S2DialogContext.h */,
+				5364217016B7482500089619 /* S2DialogContext.m */,
+				5364217116B7482500089619 /* S2DialogPageController.h */,
+				5364217216B7482500089619 /* S2DialogPageController.m */,
+				5364217516B7482500089619 /* S2ListViewController.h */,
+				5364217616B7482500089619 /* S2ListViewController.m */,
+				5364217716B7482500089619 /* S2TableDialog.xib */,
+				5364217816B7482500089619 /* S2TableDialogController.h */,
+				5364217916B7482500089619 /* S2TableDialogController.m */,
+				5364217A16B7482500089619 /* S2TablePopoverViewController.h */,
+				5364217B16B7482500089619 /* S2TablePopoverViewController.m */,
+			);
+			path = UICase;
+			sourceTree = "<group>";
+		};
+		53ADF35917AFF29C0082EBE1 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				535FE07617BDF95900580FFB /* NSRegularExpression+S2Extension.h */,
+				535FE07717BDF95900580FFB /* NSRegularExpression+S2Extension.m */,
+				53ADF35E17AFF29C0082EBE1 /* S2StringTable.h */,
+				53ADF35F17AFF29C0082EBE1 /* S2StringTable.m */,
+				53ADF35C17AFF29C0082EBE1 /* S2JSONSerialization.h */,
+				53ADF35D17AFF29C0082EBE1 /* S2JSONSerialization.m */,
+				53ADF36017AFF29C0082EBE1 /* S2TableTextExporter.h */,
+				53ADF36117AFF29C0082EBE1 /* S2TableTextExporter.m */,
+				53ADF36617AFF53F0082EBE1 /* S2TextKit.h */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		53E13BED1890324C009AEB1B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				53E13C2E1890358A009AEB1B /* NSStream+S2AppKit.h */,
+				53E13C2F1890358A009AEB1B /* NSStream+S2AppKit.m */,
+				53E13BF5189032C4009AEB1B /* S2Sockets.h */,
+				53E13BF6189032C4009AEB1B /* S2Sockets.m */,
+				53E13BF1189032C4009AEB1B /* S2HttpTask.h */,
+				53E13BF2189032C4009AEB1B /* S2HttpTask.m */,
+			);
+			path = Networking;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53641CFA16B7443400089619 /* S2AppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53641D0916B7443400089619 /* Build configuration list for PBXNativeTarget "S2AppKit" */;
+			buildPhases = (
+				53641CF716B7443400089619 /* Sources */,
+				53641CF816B7443400089619 /* Frameworks */,
+				53641CF916B7443400089619 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S2AppKit;
+			productName = S2AppKit;
+			productReference = 53641CFB16B7443400089619 /* libS2AppKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53641CF216B7443400089619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Straight Spirits Co.Ltd.";
+			};
+			buildConfigurationList = 53641CF516B7443400089619 /* Build configuration list for PBXProject "S2AppKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53641CF016B7443400089619;
+			productRefGroup = 53641CFC16B7443400089619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53641CFA16B7443400089619 /* S2AppKit */,
+				5364213C16B744D300089619 /* S2AppKit.framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5364214016B744DC00089619 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ==========\n# 変数設定\n# ==========\nSDK_VERSION=7.0\nIPHONE_SDK=iphoneos${SDK_VERSION}\nIPHONE_SIMULATOR_SDK=iphonesimulator${SDK_VERSION}\nINFOPLIST='Info.plist'\nFRAMEWORK_NAME=$(/usr/libexec/PlistBuddy -c \"Print CFBundleName\" ${INFOPLIST})\nBUILD_TARGET_NAME=$FRAMEWORK_NAME\nFRAMEWORK_BUILD_CONFIGURATION=\"Release\"\nFRAMEWORK_VERSION_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" ${INFOPLIST})\nFRAMEWORK_VERSION=A\nFRAMEWORK_BUILD_PATH=\"..\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\"\nPACKAGENAME=\"${FRAMEWORK_NAME}.${FRAMEWORK_VERSION_NUMBER}.zip\"\n\n# ==========\n# ビルド\n# ==========\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk ${IPHONE_SDK} clean\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk ${IPHONE_SDK}\n[ $? != 0 ] && exit 1\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk ${IPHONE_SIMULATOR_SDK}\n[ $? != 0 ] && exit 1\n\n# ==========\n# frameworkディレクトリ作成\n# ==========\n\n[ -d \"${FRAMEWORK_DIR}\" ] && rm -rf \"${FRAMEWORK_DIR}\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\n# ==========\n# framework作成\n# ==========\nlipo -create \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphoneos/lib${FRAMEWORK_NAME}.a \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphonesimulator/lib${FRAMEWORK_NAME}.a \\\n-o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\nfor module in ./*\ndo\n\tif [ -d ${module} ]; then\n    \tfor headerFile in ${module}/*.h\n        do\n\t        if [ -a ${headerFile} ]; then\n\t\t\t\tcp ${headerFile} ${FRAMEWORK_DIR}/Headers/\n            fi\n        done\n    fi\ndone\n\nmkdir ${FRAMEWORK_DIR}/Headers/minizip\ncp ZipArchive/minizip/*.h ${FRAMEWORK_DIR}/Headers/minizip\n                \ncp ${BUILD_TARGET_NAME}/Resources/* ${FRAMEWORK_DIR}/Resources/\ncp ${INFOPLIST} ${FRAMEWORK_DIR}/Resources/\ncd ${FRAMEWORK_BUILD_PATH}\nchmod -fR 777 \"${FRAMEWORK_NAME}.framework\"\nzip -ry ${PACKAGENAME} $(basename $FRAMEWORK_DIR)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53641CF716B7443400089619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5364211016B7446300089619 /* NSData+Base64.m in Sources */,
+				5364211116B7446300089619 /* NSException+Logs.m in Sources */,
+				53E13BF7189032C4009AEB1B /* S2HttpTask.m in Sources */,
+				5364211216B7446300089619 /* NSObject+AssociatedObjects.m in Sources */,
+				53A2CE711802FEB200394913 /* S2Button.m in Sources */,
+				5364211416B7446300089619 /* S2Data.m in Sources */,
+				5364211916B7446300089619 /* S2Logger.m in Sources */,
+				5364211B16B7446300089619 /* S2Objc.m in Sources */,
+				5364211C16B7446300089619 /* S2Pair.m in Sources */,
+				53E13BE3188FCF8B009AEB1B /* S2AppDelegate.m in Sources */,
+				5364211D16B7446300089619 /* S2Platforms.m in Sources */,
+				5364212016B7446300089619 /* S2RuntimeType.m in Sources */,
+				5364212516B7446300089619 /* S2AdBanner.m in Sources */,
+				53E13BF9189032C4009AEB1B /* S2Sockets.m in Sources */,
+				5364212716B7446300089619 /* S2CollapsibleTableView.m in Sources */,
+				5364212816B7446300089619 /* S2DateTimeSelectionViewController.m in Sources */,
+				5364212916B7446300089619 /* S2GradientButton.m in Sources */,
+				5364212A16B7446300089619 /* S2ListView.m in Sources */,
+				53E13C301890358A009AEB1B /* NSStream+S2AppKit.m in Sources */,
+				5364212B16B7446300089619 /* S2PickerViewController.m in Sources */,
+				5364212C16B7446300089619 /* S2SplitViewController.m in Sources */,
+				5364212D16B7446300089619 /* S2TableView.m in Sources */,
+				5364212E16B7446300089619 /* S2TableViewCellCollection.m in Sources */,
+				5364212F16B7446300089619 /* S2TableViewRowCollection.m in Sources */,
+				5364213016B7446300089619 /* S2UIKit.m in Sources */,
+				5364213116B7446300089619 /* S2ViewController.m in Sources */,
+				5364213216B7446300089619 /* UIDevice+Extensions.m in Sources */,
+				5364213316B7446300089619 /* UIKit+S2AppKit.m in Sources */,
+				5364213416B7446300089619 /* ioapi.c in Sources */,
+				5364213516B7446300089619 /* mztools.c in Sources */,
+				5364213616B7446300089619 /* unzip.c in Sources */,
+				5364213716B7446300089619 /* zip.c in Sources */,
+				5364213816B7446300089619 /* ZipArchive.m in Sources */,
+				5364217F16B7482500089619 /* S2UICase.m in Sources */,
+				5364218016B7482500089619 /* S2AdContainerViewController.m in Sources */,
+				5364218116B7482500089619 /* S2UICaseContainer.m in Sources */,
+				5364218416B7482500089619 /* S2EditorViewController.m in Sources */,
+				53E13BEB18903218009AEB1B /* S2Debug.m in Sources */,
+				5364218516B7482500089619 /* S2UIModel.m in Sources */,
+				5364218616B7482500089619 /* S2ViewControllers.m in Sources */,
+				5364218816B7482500089619 /* S2PopoverNavigationViewController.m in Sources */,
+				5364218916B7482500089619 /* S2PopoverToolViewController.m in Sources */,
+				5364218A16B7482500089619 /* S2CardContainerViewController.m in Sources */,
+				5364218B16B7482500089619 /* S2CardEditorViewController.m in Sources */,
+				5364218C16B7482500089619 /* S2CardItemListEditorViewController.m in Sources */,
+				5364218D16B7482500089619 /* S2CardListViewController.m in Sources */,
+				5364218E16B7482500089619 /* S2CardPropertyEditorViewController.m in Sources */,
+				5364218F16B7482500089619 /* S2CardStack.m in Sources */,
+				5328E9F9195E38B500C9A0EE /* S2Keychain.m in Sources */,
+				5328E9FF195E394C00C9A0EE /* S2ResourceManager.m in Sources */,
+				5364219016B7482500089619 /* S2DialogContext.m in Sources */,
+				5364219116B7482500089619 /* S2DialogPageController.m in Sources */,
+				5364219316B7482500089619 /* S2ListViewController.m in Sources */,
+				5364219416B7482500089619 /* S2TableDialogController.m in Sources */,
+				5364219516B7482500089619 /* S2TablePopoverViewController.m in Sources */,
+				5364219616B7482500089619 /* UIViewController+UICase.m in Sources */,
+				5328E9FA195E38B500C9A0EE /* UIDevice+Extensions.m in Sources */,
+				53EF3C4A16D3682000DA22E9 /* S2ResourceVersionCheckTask.m in Sources */,
+				53D85B1B17A7CD5A006C97CA /* S2NotificationCenter.m in Sources */,
+				53ADF36317AFF29C0082EBE1 /* S2JSONSerialization.m in Sources */,
+				53ADF36417AFF29C0082EBE1 /* S2StringTable.m in Sources */,
+				5328EA00195E394C00C9A0EE /* S2TaskManager.m in Sources */,
+				53ADF36517AFF29C0082EBE1 /* S2TableTextExporter.m in Sources */,
+				535FE07817BDF95900580FFB /* NSRegularExpression+S2Extension.m in Sources */,
+				535FE07B17BDFAC600580FFB /* S2Model.m in Sources */,
+				535FE07F17BE041600580FFB /* NSData+Crypto.m in Sources */,
+				535FE08017BE041600580FFB /* S2Functions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53641D0716B7443400089619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53641D0816B7443400089619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53641D0A16B7443400089619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/S2AppKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S2AppKit-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		53641D0B16B7443400089619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				DSTROOT = /tmp/S2AppKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "S2AppKit-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5364213E16B744D300089619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5364213F16B744D300089619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53641CF516B7443400089619 /* Build configuration list for PBXProject "S2AppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53641D0716B7443400089619 /* Debug */,
+				53641D0816B7443400089619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53641D0916B7443400089619 /* Build configuration list for PBXNativeTarget "S2AppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53641D0A16B7443400089619 /* Debug */,
+				53641D0B16B7443400089619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5364213D16B744D300089619 /* Build configuration list for PBXAggregateTarget "S2AppKit.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5364213E16B744D300089619 /* Debug */,
+				5364213F16B744D300089619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53641CF216B7443400089619 /* Project object */;
+}
