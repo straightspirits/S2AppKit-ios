@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://github.com/straightspirits/S2AppKit-ios"
   s.source       = { :git => "http://github.com/straightspirits/S2AppKit.git"} # , :tag => "0.0.1"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Fumio Furukawa" => "fumio@straight-spirits.com" }
   s.platform     = :ios, "7.0"
 
