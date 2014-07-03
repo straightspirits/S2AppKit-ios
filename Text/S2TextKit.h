@@ -11,4 +11,3 @@
 #import "S2StringTable.h"
 #import "S2JSONSerialization.h"
 #import "S2TableTextExporter.h"
-#import "S2XMLReader.h"
