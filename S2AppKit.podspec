@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "7.0"
 
-  s.source_files  = "**/*.{h,m}"
+  s.source_files  = "**/*.{h,m,c}"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.library   = "z"
   s.requires_arc = true
