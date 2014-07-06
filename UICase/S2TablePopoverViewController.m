@@ -163,7 +163,7 @@
 //	self.tableView.sectionHeaderHeight = 10;
 //	self.tableView.sectionFooterHeight = 10;
 
-	self.contentSizeForViewInPopover = [self.tableView rectForSection:0].size;
+	self.preferredContentSize = [self.tableView rectForSection:0].size;
 
 	// 初期選択
 	if (_selectedRow >= 0) {

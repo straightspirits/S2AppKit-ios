@@ -19,7 +19,7 @@
 	S2PopoverToolViewController* instance = [super new_uicase:uicase];
 	
 	instance->_initialSize = size;
-	instance.contentSizeForViewInPopover = size;
+	instance.preferredContentSize = size;
 	
 	return instance;
 }

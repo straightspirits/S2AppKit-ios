@@ -74,7 +74,7 @@
 
 	// MEMO: nibで定義したUIを使う場合に必要
 	if (!self.storyboard) {
-		self.contentSizeForViewInPopover = self.view.frame.size;
+		self.preferredContentSize = self.view.frame.size;
 	}
 }
 

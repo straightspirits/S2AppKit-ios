@@ -437,7 +437,7 @@ const int titleLabelMinWidth = 160;
 {
 	[super layoutSubviews];
 
-	self.titleLabel.width = [self.titleLabel.text sizeWithFont:self.titleLabel.font].width;
+	self.titleLabel.width = [self.titleLabel.text sizeWithAttributes:@{NSFontAttributeName: self.titleLabel.font}].width;
 	
 	CGRect frame = self.valueTextField.frame;
 	{

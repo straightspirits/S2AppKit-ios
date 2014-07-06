@@ -206,7 +206,7 @@ typedef enum {
 - (void)layoutTitleLayer
 {
     CGSize wholeSize = self.frame.size;
-    CGSize titleSize = [self.title sizeWithFont:[self _font]];
+    CGSize titleSize = [self.title sizeWithAttributes:@{NSFontAttributeName: [self _font]}];
     self.titleLayer.frame = CGRectMake(
 		PADDING_X,
 		(wholeSize.height - titleSize.height) / 2,

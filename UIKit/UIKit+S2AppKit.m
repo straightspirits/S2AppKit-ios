@@ -294,7 +294,7 @@
 // heightを維持したまま、xとwidthをテキストに合わせる
 - (void)sizeToFitKeepRight;
 {
-	CGSize textSize = [self.text sizeWithFont:self.font];
+	CGSize textSize = [self.text sizeWithAttributes:@{NSFontAttributeName: self.font}];
 	CGRect frame = self.frame;
 	{
 		int right = frame.origin.x + frame.size.width;
