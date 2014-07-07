@@ -153,7 +153,7 @@
 
 - (void)outputErrorMessage:(NSString*)msg
 {
-	if( _delegate && [_delegate respondsToSelector:@selector(ErrorMessage)] )
+	if( _delegate && [_delegate respondsToSelector:@selector(errorMessage:)] )
 		[_delegate errorMessage:msg];
 }
 
@@ -429,13 +429,13 @@
 
 - (void)outputErrorMessage:(NSString*)msg
 {
-	if( _delegate && [_delegate respondsToSelector:@selector(errorMessage)] )
+	if( _delegate && [_delegate respondsToSelector:@selector(errorMessage:)] )
 		[_delegate errorMessage:msg];
 }
 
 - (BOOL)overWrite:(NSString*)file
 {
-	if( _delegate && [_delegate respondsToSelector:@selector(overWriteOperation)] )
+	if( _delegate && [_delegate respondsToSelector:@selector(overWriteOperation:)] )
 		return [_delegate overWriteOperation:file];
 	return YES;
 }
