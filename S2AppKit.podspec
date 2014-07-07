@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                 DESC
 
   s.homepage     = "http://github.com/straightspirits/S2AppKit-ios"
-  s.source       = { :git => "https://github.com/straightspirits/S2AppKit-ios.git", :tag => "2.0.0" }
+  s.source       = { :git => "https://github.com/straightspirits/S2AppKit-ios.git", :tag => "v2.0.0" }
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Fumio Furukawa" => "fumio@straight-spirits.com" }
   s.platform     = :ios, "7.0"
