@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "S2AppKit"
-  s.version      = "2.0.1"
+  s.version      = "2.0.2"
   s.summary      = "S2AppKit is a SDK extension. wrapping library."
   s.description  = <<-DESC
                   S2AppKit is a application framework. if use then very very happpy!
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author       = { "Fumio Furukawa" => "fumio@straight-spirits.com" }
   s.platform     = :ios, "6.0"
 
-  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "6.0"
 
   s.source_files  = "**/*.{h,m,c}"
   # s.frameworks = "SomeFramework", "AnotherFramework"
