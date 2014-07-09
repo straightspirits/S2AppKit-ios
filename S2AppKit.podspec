@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'iAd' do |a|
     a.source_files = 'iAd/*.{h,m}'
-    a.dependency 'iAd'
+    a.framework = 'iAd'
   end
 
 end
