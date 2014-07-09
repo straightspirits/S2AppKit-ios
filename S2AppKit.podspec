@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'S2AppKit'
-  s.version      = '2.0.3'
+  s.version      = '2.0.4'
   s.summary      = 'S2AppKit is a SDK extension. wrapping library.'
   s.description  = <<-DESC
 S2AppKit is a application framework. if use then very very happpy!
@@ -18,7 +18,7 @@ DESC
   s.default_subspec = 'Core';
 
   s.subspec 'Core' do |ss|
-    ss.source_files  = '{Application,Foundation,Networking,Services,Text,UICase,UIKit,ZipArchive}/*.{h,m,c}'
+    ss.source_files  = '{Application,Foundation,Networking,Services,Text,UICase,UIKit,ZipArchive}/*.{h,m}', 'ZipArchive/minizip/*.{h,c}'
     ss.library   = 'z'
 #    ss.dependency 'AFNetworking', '~> 2.0'
     ss.dependency 'MBProgressHUD', '~> 0.8'
