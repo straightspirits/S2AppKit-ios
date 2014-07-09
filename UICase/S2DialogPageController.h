@@ -17,7 +17,7 @@
 
 - (S2DialogContext*)pageContext;
 - (void)setPageContext:(S2DialogContext *)context;
-@property int pageIndex;
+@property NSInteger pageIndex;
 
 - (UIBarButtonItem*)cancelButton;
 - (UIBarButtonItem*)nextButton;
