@@ -54,7 +54,7 @@
 
 - (void)startAd;
 {
-	if (self.adBanner != nil || self.adBanner.running)
+	if (self.adBanner == nil || self.adBanner.running)
 		return;
 	
 	S2LogPass(nil, @"");
@@ -68,7 +68,7 @@
 
 - (void)stopAd;
 {
-	if (self.adBanner != nil || !self.adBanner.running)
+	if (self.adBanner == nil || !self.adBanner.running)
 		return;
 
 	S2LogPass(nil, @"");

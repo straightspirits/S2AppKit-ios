@@ -11,12 +11,17 @@
 
 
 
-@interface S2AdBanner : NSObject
+@interface S2AdBanner : NSObject {
+@protected
+	UIView* _view;
+	BOOL _running;
+}
 
 @property (readonly) UIView* view;
 
 - (void)startAd;
 - (void)stopAd;
+
 @property (readonly) BOOL running;
 
 @end

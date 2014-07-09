@@ -19,20 +19,15 @@
 
 
 
-@implementation S2AdBanner (iAd) {
-	@protected
-//	UIView* _view;
-}
+@implementation S2AdBanner (iAd)
 
 S2_DEALLOC_LOGGING_IMPLEMENT
 
 + (id)iAdBanner:(NSDictionary*)appPrivateSettings;
 {
-	__iAdBanner* controller = [[__iAdBanner alloc] init:appPrivateSettings];
+	__iAdBanner* adBanner = [[__iAdBanner alloc] init:appPrivateSettings];
 
-	controller.view = [controller makeiAdBannerView];
-
-	return controller;
+	return adBanner;
 }
 
 @end
@@ -47,17 +42,20 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 - (id)init:(NSDictionary*)appPrivateSettings;
 {
 	if (self = [super init]) {
-		self->_appPrivateSettings = appPrivateSettings;
+		_appPrivateSettings = appPrivateSettings;
+        _view = [[ADBannerView alloc] initWithAdType:ADAdTypeBanner];
 	}
 	return self;
 }
 
 - (void)startAd;
 {
+    _running = YES;
 }
 
 - (void)stopAd;
 {
+    _running = NO;
 }
 
 #pragma mark - ADBannerView delegate
