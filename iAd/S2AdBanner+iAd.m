@@ -11,23 +11,16 @@
 
 
 
-@interface S2AdBanner ()
-
-@end
-
-
-
 @interface __iAdBanner : S2AdBanner <ADBannerViewDelegate>
 
-- (ADBannerView*)makeiAdBannerView;
+- (id)init:(NSDictionary*)appPrivateSettings;
 
 @end
 
 
 
-@implementation S2AdBanner {
+@implementation S2AdBanner (iAd) {
 	@protected
-	NSDictionary* _appPrivateSettings;
 //	UIView* _view;
 }
 
@@ -42,6 +35,15 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 	return controller;
 }
 
+@end
+
+
+
+@implementation __iAdBanner {
+	NSDictionary* _appPrivateSettings;
+	BOOL _bannerIsVisible;
+}
+
 - (id)init:(NSDictionary*)appPrivateSettings;
 {
 	if (self = [super init]) {
@@ -50,50 +52,12 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 	return self;
 }
 
-- (void)setView:(UIView *)view;
-{
-	_view = view;
-}
-
-- (void)startAd;
-{
-	S2AssertMustOverride();
-}
-
-- (void)stopAd;
-{
-	S2AssertMustOverride();
-}
-
-- (BOOL)running;
-{
-	return NO;
-}
-
-@end
-
-
-
-@implementation __iAdBanner {
-	BOOL bannerIsVisible;
-}
-
 - (void)startAd;
 {
 }
 
 - (void)stopAd;
 {
-}
-
-#pragma mark - iADBannerView
-
-- (ADBannerView*)makeiAdBannerView;
-{
-//	ADBannerView* view = [[ADBannerView alloc] initWithFrame:CGRectZero];
-//	view.delegate = self;
-	
-	return nil;
 }
 
 #pragma mark - ADBannerView delegate
@@ -102,11 +66,11 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 - (void)bannerViewDidLoadAd:(ADBannerView *)banner
 {
     // バナーが表示されていない場合は表示する
-    if (!bannerIsVisible) {
+    if (!_bannerIsVisible) {
         [UIView beginAnimations:@"animateAdBannerOn" context:NULL];
         banner.frame = CGRectOffset(banner.frame, 0, +banner.frame.size.height);
         [UIView commitAnimations];
-        bannerIsVisible = YES;
+        _bannerIsVisible = YES;
     }
 }
 
@@ -120,11 +84,11 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 // 広告読み込みエラー
 - (void)bannerView:(ADBannerView *)banner didFailToReceiveAdWithError:(NSError *)error
 {
-    if (bannerIsVisible == YES) {
+    if (_bannerIsVisible == YES) {
         [UIView beginAnimations:@"animateAdBannerOff" context:NULL];
         banner.frame = CGRectOffset(banner.frame, 0, -banner.frame.size.height);
         [UIView commitAnimations];
-        bannerIsVisible = NO;
+        _bannerIsVisible = NO;
     }
 }
 
