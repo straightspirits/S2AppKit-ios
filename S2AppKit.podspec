@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "6.0"
 
-  s.source_files  = "**/*.{h,m,c}"
+  s.source_files  = "{Application,Foundation,Networking,Services,Text,UICase,UIKit,ZipArchive}/*.{h,m,c}"
   # s.frameworks = "SomeFramework", "AnotherFramework"
   s.library   = "z"
   s.requires_arc = true
@@ -24,5 +24,10 @@ Pod::Spec.new do |s|
 
 #  s.dependency 'AFNetworking', '~> 2.0'
   s.dependency 'MBProgressHUD', '~> 0.8'
+
+  s.subspec 'iAd' do |a|
+    a.source_files = 'iAd/*.{h,m}'
+    a.dependency 'iAd'
+  end
 
 end
