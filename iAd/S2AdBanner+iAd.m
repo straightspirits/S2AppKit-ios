@@ -7,6 +7,7 @@
 //
 
 #import "S2AdBanner.h"
+#import <iAd/iAd.h>
 
 
 
@@ -38,15 +39,6 @@ S2_DEALLOC_LOGGING_IMPLEMENT
 
 	controller.view = [controller makeiAdBannerView];
 
-	return controller;
-}
-
-+ (id)gAdBanner:(NSDictionary*)appPrivateSettings rootViewController:(UIViewController*)rootViewController bannerSize:(CGSize)gAdBannerSize;
-{
-	__GAdBanner* controller = [[__GAdBanner alloc] init:appPrivateSettings];
-	
-	controller.view = [controller makeGADBannerView:rootViewController bannerSize:gAdBannerSize];
-	
 	return controller;
 }
 
