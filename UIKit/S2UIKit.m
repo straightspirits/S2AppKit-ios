@@ -254,12 +254,20 @@
 
 + (S2AlertView*)show_message:(NSString *)message cancelButton:(NSString*)cancelButton otherButton:(NSString*)otherButton closure:(S2AlertViewClosure)closure;
 {
-	return [[self alloc] init_title:nil message:message closure:closure cancelButtonTitle:cancelButton otherButtonTitles:otherButton, nil];
+	S2AlertView* view =  [[self alloc] init_title:nil message:message closure:closure cancelButtonTitle:cancelButton otherButtonTitles:otherButton, nil];
+
+	[view show];
+	
+	return view;
 }
 
 + (S2AlertView*)show_title:(NSString *)title message:(NSString *)message cancelButton:(NSString*)cancelButton otherButton:(NSString*)otherButton closure:(S2AlertViewClosure)closure;
 {
-	return [[self alloc] init_title:title message:message closure:closure cancelButtonTitle:cancelButton otherButtonTitles:otherButton, nil];
+	S2AlertView* view =  [[self alloc] init_title:title message:message closure:closure cancelButtonTitle:cancelButton otherButtonTitles:otherButton, nil];
+
+	[view show];
+	
+	return view;
 }
 
 + (S2AlertView*)showOkCancel_message:(NSString *)message
