@@ -74,6 +74,9 @@ typedef void (^S2AlertViewClosure)(S2AlertView* view, NSInteger buttonIndex);
 + (S2AlertView*)show_title:(NSString*)title message:(NSString*)message;
 + (S2AlertView*)show_title:(NSString*)title message:(NSString*)message closure:(S2AlertViewClosure)closure;
 
++ (S2AlertView*)show_message:(NSString *)message cancelButton:(NSString*)cancelButton otherButton:(NSString*)otherButton closure:(S2AlertViewClosure)closure;
++ (S2AlertView*)show_title:(NSString *)title message:(NSString *)message cancelButton:(NSString*)cancelButton otherButton:(NSString*)otherButton closure:(S2AlertViewClosure)closure;
+
 + (S2AlertView*)showOkCancel_message:(NSString *)message closure:(S2AlertViewClosure)closure;
 + (S2AlertView*)showOkCancel_title:(NSString *)title message:(NSString *)message closure:(S2AlertViewClosure)closure;
 
