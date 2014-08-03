@@ -20,18 +20,21 @@ DESC
   s.subspec 'Core' do |ss|
     ss.source_files  = '{Application,Foundation,Networking,Services,Text,UICase,UIKit,ZipArchive}/*.{h,m}', 'ZipArchive/minizip/*.{h,c}'
     ss.library   = 'z'
-#    ss.dependency 'AFNetworking', '~> 2.0'
     ss.dependency 'MBProgressHUD', '~> 0.8'
   end
 
   s.subspec 'iAd' do |ss|
     ss.source_files = 'iAd/*.{h,m}'
-    ss.frameworks= 'iAd'
+    ss.frameworks = 'iAd'
   end
 
 #  s.subspec 'AdMob' do |ss|
 #    ss.source_files = 'iAd/*.{h,m}'
 #    ss.dependency 'AdMob'
 #  end
+
+  s.subspec 'Networking' do |ss|
+    ss.dependency 'AFNetworking', '~> 2.0'
+  end
 
 end
