@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Straight Spirits. All rights reserved.
 //
 
-#import "S2AdContainerViewController.h"
+#import <S2AppKit/S2AdContainerViewController.h>
 
 
 

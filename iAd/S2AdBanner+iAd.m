@@ -1,12 +1,12 @@
 //
-//  S2AdBanner.m
+//  S2AdBanner+iAd.m
 //  S2AppKit/S2UIKit
 //
 //  Created by ふみお on 2012/11/05.
 //  Copyright (c) 2012年 Straight Spirits. All rights reserved.
 //
 
-#import "S2AdBanner.h"
+#import "S2AdBanner+iAd.h"
 #import <iAd/iAd.h>
 
 
