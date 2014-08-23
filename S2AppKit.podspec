@@ -25,6 +25,7 @@ DESC
   end
 
   s.subspec 'iAd' do |ss|
+    ss.dependency 'S2AppKit/Core'
     ss.source_files = 'iAd/*.{h,m}'
     ss.frameworks = 'iAd'
   end
