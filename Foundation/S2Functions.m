@@ -33,12 +33,12 @@ NSString* S2DoubleToString(double value)
 
 NSString* S2DateToDateTimeString(NSDate* value)
 {
-	return S2DateFormatString(@"yyyy/MM/dd HH:mm:SS", value);
+	return S2DateFormatString(@"yyyy/MM/dd HH:mm:ss", value);
 }
 
 NSString* S2DateToDateTimeZoneString(NSDate* value)
 {
-	return S2DateFormatString(@"yyyy/MM/dd HH:mm:SS z", value);
+	return S2DateFormatString(@"yyyy/MM/dd HH:mm:ss z", value);
 }
 
 NSString* S2DateToDateString(NSDate* value)
@@ -48,7 +48,7 @@ NSString* S2DateToDateString(NSDate* value)
 
 NSString* S2DateToTimeString(NSDate* value)
 {
-	return S2DateFormatString(@"HH:mm:SS", value);
+	return S2DateFormatString(@"HH:mm:ss", value);
 }
 
 NSString* S2DateToLocalizedDateString(NSDate* value)
@@ -58,7 +58,7 @@ NSString* S2DateToLocalizedDateString(NSDate* value)
 
 NSString* S2DateToLocalizedTimeString(NSDate* value)
 {
-	return S2DateFormatString(@"HH時mm分SS秒", value);
+	return S2DateFormatString(@"HH時mm分ss秒", value);
 }
 
 NSString* S2DateFormatString(NSString* format, NSDate* value)
