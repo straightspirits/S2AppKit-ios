@@ -10,22 +10,26 @@
 	<string>S2AppKit</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>1B259B86126EEFC09E2AF20D37F9C188593015BB</key>
+		<string>http://github.com/straightspirits/S2AppKit-ios</string>
 		<key>8A3F6225-B2DC-4DC6-B635-399697819CFC</key>
 		<string>http://github.com/straightspirits/S2AppKit-ios</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>S2AppKit.xcodeproj/project.xcworkspace</string>
+	<string>S2AppKit.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8A3F6225-B2DC-4DC6-B635-399697819CFC</key>
+		<key>1B259B86126EEFC09E2AF20D37F9C188593015BB</key>
 		<string>../..</string>
+		<key>8A3F6225-B2DC-4DC6-B635-399697819CFC</key>
+		<string>../../../S2AppKit-ios</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>http://github.com/straightspirits/S2AppKit-ios</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8A3F6225-B2DC-4DC6-B635-399697819CFC</string>
+	<string>1B259B86126EEFC09E2AF20D37F9C188593015BB</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>8A3F6225-B2DC-4DC6-B635-399697819CFC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>S2AppKit-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B259B86126EEFC09E2AF20D37F9C188593015BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sources</string>
 		</dict>
 	</array>
 </dict>

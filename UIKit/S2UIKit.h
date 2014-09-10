@@ -11,6 +11,7 @@
 #import "UIKit+S2AppKit.h"
 #import "UIDevice+Extensions.h"
 #import "S2Colors.h"
+#import "S2Label.h"
 #import "S2Button.h"
 #import "S2TableView.h"
 #import "S2ViewController.h"

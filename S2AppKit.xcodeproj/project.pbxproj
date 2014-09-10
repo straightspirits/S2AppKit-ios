@@ -81,6 +81,7 @@
 		53ADF36317AFF29C0082EBE1 /* S2JSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF35D17AFF29C0082EBE1 /* S2JSONSerialization.m */; };
 		53ADF36417AFF29C0082EBE1 /* S2StringTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF35F17AFF29C0082EBE1 /* S2StringTable.m */; };
 		53ADF36517AFF29C0082EBE1 /* S2TableTextExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF36117AFF29C0082EBE1 /* S2TableTextExporter.m */; };
+		53D6615D19C0ACDC00364BD2 /* S2Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D6615C19C0ACDC00364BD2 /* S2Label.m */; };
 		53D85B1B17A7CD5A006C97CA /* S2NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53D85B1A17A7CD5A006C97CA /* S2NotificationCenter.m */; };
 		53E13BE3188FCF8B009AEB1B /* S2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BE2188FCF8B009AEB1B /* S2AppDelegate.m */; };
 		53E13BEB18903218009AEB1B /* S2Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E13BE818903218009AEB1B /* S2Debug.m */; };
@@ -242,6 +243,8 @@
 		53ADF36117AFF29C0082EBE1 /* S2TableTextExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2TableTextExporter.m; sourceTree = "<group>"; };
 		53ADF36617AFF53F0082EBE1 /* S2TextKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2TextKit.h; sourceTree = "<group>"; };
 		53BC3EFF17A57375006B9D2E /* S2UIKitDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = S2UIKitDefines.h; sourceTree = "<group>"; };
+		53D6615B19C0ACDC00364BD2 /* S2Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2Label.h; sourceTree = "<group>"; };
+		53D6615C19C0ACDC00364BD2 /* S2Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2Label.m; sourceTree = "<group>"; };
 		53D85B1917A7CD5A006C97CA /* S2NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2NotificationCenter.h; sourceTree = "<group>"; };
 		53D85B1A17A7CD5A006C97CA /* S2NotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S2NotificationCenter.m; sourceTree = "<group>"; };
 		53E13BE1188FCF8B009AEB1B /* S2AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S2AppDelegate.h; sourceTree = "<group>"; };
@@ -361,6 +364,8 @@
 				53BC3EFF17A57375006B9D2E /* S2UIKitDefines.h */,
 				53641F9B16B7446200089619 /* S2AdBanner.h */,
 				53641F9C16B7446200089619 /* S2AdBanner.m */,
+				53D6615B19C0ACDC00364BD2 /* S2Label.h */,
+				53D6615C19C0ACDC00364BD2 /* S2Label.m */,
 				53A2CE6F1802FEB200394913 /* S2Button.h */,
 				53A2CE701802FEB200394913 /* S2Button.m */,
 				53641F9F16B7446200089619 /* S2CollapsibleTableView.h */,
@@ -534,7 +539,7 @@
 		53641CF216B7443400089619 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Straight Spirits Co.Ltd.";
 			};
 			buildConfigurationList = 53641CF516B7443400089619 /* Build configuration list for PBXProject "S2AppKit" */;
@@ -589,6 +594,7 @@
 				5364211D16B7446300089619 /* S2Platforms.m in Sources */,
 				5364212016B7446300089619 /* S2RuntimeType.m in Sources */,
 				5364212516B7446300089619 /* S2AdBanner.m in Sources */,
+				53D6615D19C0ACDC00364BD2 /* S2Label.m in Sources */,
 				53E13BF9189032C4009AEB1B /* S2Sockets.m in Sources */,
 				5364212716B7446300089619 /* S2CollapsibleTableView.m in Sources */,
 				5364212816B7446300089619 /* S2DateTimeSelectionViewController.m in Sources */,
@@ -653,7 +659,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -684,7 +689,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -707,7 +711,6 @@
 		53641D0A16B7443400089619 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/S2AppKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "S2AppKit-Prefix.pch";
@@ -722,7 +725,6 @@
 		53641D0B16B7443400089619 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				DSTROOT = /tmp/S2AppKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "S2AppKit-Prefix.pch";

@@ -15,6 +15,11 @@
 	BOOL _enabled;
 }
 
+- (void)awakeFromNib;
+{
+	[super awakeFromNib];
+}
+
 - (NSString *)title
 {
 	return nil;
@@ -56,6 +61,16 @@
 		if ([view respondsToSelector:@selector(setEnabled:)]) {
 			[view setEnabled:enabled];
 		}
+	}
+}
+
+/* override */
+- (void)setSeparatorInset:(UIEdgeInsets)separatorInset;
+{
+	[super setSeparatorInset:separatorInset];
+
+	if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
+		self.layoutMargins = separatorInset;
 	}
 }
 

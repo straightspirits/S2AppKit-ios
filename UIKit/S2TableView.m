@@ -83,6 +83,21 @@
 	return instance;
 }
 
+- (void)awakeFromNib;
+{
+	[super awakeFromNib];
+}
+
+/* override */
+- (void)setSeparatorInset:(UIEdgeInsets)separatorInset;
+{
+	[super setSeparatorInset:separatorInset];
+	
+	if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
+		self.layoutMargins = separatorInset;
+	}
+}
+
 @end
 
 
