@@ -99,12 +99,12 @@ BOOL S2StringMatch(NSString* string, NSString* pattern)
 NSString* S2StringSearch(NSString* string, NSString* pattern)
 {
 	if (!string)
-		return NO;
+		return nil;
 	
 	NSError* error;
 	NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern:pattern options:0 error:&error];
 	if (error) {
-		return NO;
+		return nil;
 	}
 	
 	NSRange range = {.location=0, .length=string.length};
