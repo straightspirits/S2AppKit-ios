@@ -18,6 +18,10 @@
 - (void)awakeFromNib;
 {
 	[super awakeFromNib];
+
+	if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
+		self.layoutMargins = UIEdgeInsetsZero;
+	}
 }
 
 - (NSString *)title

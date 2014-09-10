@@ -86,6 +86,10 @@
 - (void)awakeFromNib;
 {
 	[super awakeFromNib];
+
+	if ([self respondsToSelector:@selector(setLayoutMargins:)]) {
+		self.layoutMargins = self.separatorInset;
+	}
 }
 
 /* override */
